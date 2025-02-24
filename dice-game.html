@@ -11,23 +11,39 @@
 </head>
 
 <body>
-    <div class="d-flex flex-column align-items-center text-center w-75 mx-auto mt-5">
-        <h2 class="dice-game w-sm-100">Würfelspiel</h2>
-        <div class="d-sm-flex flex-column flex-sm-row gap-5">
-          <div>
-            <p class="font-jura mt-2 mb-4">Spieler</p>
-            <img class="dice-img1" src="images/dice-game/dice6.png" />
-          </div>
-    
-          <div>
-            <p class="font-jura mt-4 mt-sm-2 mb-4">Computer</p>
-            <img class="dice-img2" src="images/dice-game/dice6.png" />
-          </div>
+  <div class="d-flex flex-column align-items-center text-center w-75 mx-auto mt-5">
+      <h2 class="dice-game w-sm-100">Würfelspiel</h2>
+      <div class="d-sm-flex flex-column flex-sm-row gap-5">
+        <div>
+          <p class="font-jura mt-2 mb-4">Spieler</p>
+          <img class="dice-img1" src="images/dice-game/dice6.png" />
         </div>
-        <button class="btn btn-outline-light font-jura mt-5 mb-5" id="playButton">Start</button>
+  
+        <div>
+          <p class="font-jura mt-4 mt-sm-2 mb-4">Computer</p>
+          <img class="dice-img2" src="images/dice-game/dice6.png" />
+        </div>
       </div>
+      <button class="btn btn-outline-light font-jura mt-5 mb-5" id="playButton">Start</button>
+    </div>
 
-      <script src="src/dice-game.js" charset="utf-8"></script>
+    <div class="d-flex flex-column mb-5 gap-3">
+      <div class="d-flex justify-content-center gap-3">
+          <a class="resume-button btn btn-outline-light font-jura text-decoration-none" href="./resume.html">Lebenslauf</a>
+          <a class="contact-button btn btn-outline-light font-jura text-decoration-none" href="mailto:karriere.development@icloud.com">Kontakt</a>
+          <a class="source-code-button btn btn-outline-light font-jura text-decoration-none" href="https://github.com/my-dev-portfolio/my-application">Quellcode</a>
+      </div>
+      <div class="d-flex gap-3 justify-content-center">
+          <div>
+              <a class="network-project-button btn btn-outline-light font-jura text-decoration-none" href="./network-project.html">Netzwerkprojekt</a>
+          </div>    
+          <div class="d-flex flex-column">
+            <a class="dice-game-button btn btn-outline-light font-jura text-decoration-none" href="./index.html">Startseite</a>
+          </div>
+      </div>
+  </div>
+
+  <script src="src/dice-game.js" charset="utf-8"></script>
 </body>
 
 </html>
