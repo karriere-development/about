@@ -112,10 +112,6 @@ h2 {
     border-bottom: solid 1px #EDF1D6;
 }
 
-.resume-duration {
-    user-select: none;
-}
-
 .documentation-container {
     width: 100%;
     overflow-x: auto;
