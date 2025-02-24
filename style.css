@@ -41,19 +41,6 @@ body {
     }
 }
 
-@media (max-width: 992px) {
-    .documentation-table {
-        overflow-x: auto;
-        margin: 0 auto;
-    }
-}
-
-@media (min-width: 993px) {
-    .documentation-table {
-        margin: 0 5vw;
-    }
-}
-
 @media (max-width: 576px) {
     .img-network-structure,
     .img-network-layout {
@@ -123,6 +110,16 @@ h2 {
 
 .border-bottom {
     border-bottom: solid 1px #EDF1D6;
+}
+
+.documentation-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.documentation-table {
+    margin: 0 10vw;
+    border-collapse: collapse;
 }
 
 tr, td {
