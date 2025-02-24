@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Dice Game</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css" /> 
+</head>
+
+<body>
+    <div class="d-flex flex-column align-items-center text-center w-75 mx-auto mt-5">
+        <h2 class="dice-game w-sm-100">Würfelspiel</h2>
+        <div class="d-sm-flex flex-column flex-sm-row gap-5">
+          <div>
+            <p class="font-jura mt-2 mb-4">Spieler</p>
+            <img class="dice-img1" src="images/dice-game/dice6.png" />
+          </div>
+    
+          <div>
+            <p class="font-jura mt-4 mt-sm-2 mb-4">Computer</p>
+            <img class="dice-img2" src="images/dice-game/dice6.png" />
+          </div>
+        </div>
+        <button class="btn btn-outline-light font-jura mt-5 mb-5" id="playButton">Start</button>
+      </div>
+
+      <script src="src/dice-game.js" charset="utf-8"></script>
+</body>
+
+</html>

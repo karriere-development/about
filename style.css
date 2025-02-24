@@ -1,0 +1,124 @@
+
+body {
+    background-image: linear-gradient(to bottom, #609966, #79AC78, #9DC08B);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family: 'Jura';
+    src: url(./fonts/jura/Jura-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Shrikhand';
+    src: url(./fonts/shrikhand/Shrikhand-Regular.ttf);
+}
+
+.img-head {
+    width: 500px;
+}
+
+.img-profile {
+    width: 335px;
+    max-width: 100%;
+    border: solid 1px #EDF1D6;
+    border-radius: 50%;
+    margin-top: 1.3rem
+}
+
+.dice-img1, .dice-img2 {
+    width: 200px;
+}
+
+.img-network-structure, .img-network-layout {
+    border-radius: 3%;
+    border: solid #EDF1D6 5px;
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .resume-h2-style {
+        margin: 0 100px
+    }
+}
+
+@media (max-width: 576px) {
+    .img-network-structure,
+    .img-network-layout {
+        width: 350px;
+        height: 300px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1200px) {
+    .img-network-structure,
+    .img-network-layout {
+        width: 450px;
+        height: 400px;
+    }
+}
+
+@media (min-width: 1201px) {
+    .img-network-structure,
+    .img-network-layout {
+        width: 600px;
+        height: 550px;
+    }
+}
+
+h1, h2 {
+    font-size: clamp(3rem, 15vw, 5rem);
+    font-family: "Shrikhand", sans-serif;
+    color: #EDF1D6;
+    margin: 0;
+}
+
+.h1-style {
+    font-size: clamp(2rem, 10vw, 3.6rem);
+}
+
+h2 {
+    font-size: clamp(2rem, 10vw, 3rem);
+}
+
+.font-jura, h3, h4,
+.documentation-table {
+    font-family: "Jura", serif;
+    font-size: clamp(1rem, 3vw, 1.3rem);
+    font-weight: 100;
+    color: #EDF1D6;
+}
+
+.contact-button, #playButton {
+    width: 100%;
+    max-width: 12rem;
+    color: black;
+    background-color: #EDF1D6;
+}
+
+.resume-button:hover, .network-project-button:hover,
+.source-code-button:hover, .dice-game-button:hover {
+    color: black;
+    background-color: #EDF1D6;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-button:hover, #playButton:hover {
+    color: #EDF1D6;
+    background-color: #9DC08B;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.border-bottom {
+    border-bottom: solid 1px #EDF1D6;
+}
+
+.documentation-table {
+    overflow-x: auto;
+    margin: 0 10vw;
+}
+
+tr, td {
+    color: #EDF1D6;
+    border: solid 3px;
+}
