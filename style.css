@@ -94,14 +94,12 @@ h2 {
     max-width: 12rem;
     color: black;
     background-color: #EDF1D6;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
 }
 
 .resume-button:hover, .network-project-button:hover,
 .source-code-button:hover, .dice-game-button:hover {
     color: black;
     background-color: #EDF1D6;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
     transition: background-color 0.3s, color 0.3s;
 }
 
