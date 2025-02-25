@@ -109,8 +109,8 @@ h2 {
     transition: background-color 0.3s, color 0.3s;
 }
 
-.border-bottom {
-    border-bottom: solid 1px black;
+.border-b {
+    border-bottom: solid 1px #EDF1D6;
 }
 
 .documentation-container {
