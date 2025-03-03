@@ -101,12 +101,14 @@ h2 {
     color: black;
     background-color: #EDF1D6;
     transition: background-color 0.3s, color 0.3s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
 }
 
 .contact-button:hover, #playButton:hover {
     color: #EDF1D6;
     background-color: #9DC08B;
     transition: background-color 0.3s, color 0.3s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
 }
 
 .border-b {
