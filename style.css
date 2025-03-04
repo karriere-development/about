@@ -132,5 +132,7 @@ h2 {
 }
 
 tr, td {
-    border: 3px solid #EDF1D6;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #EDF1D6;
 }
