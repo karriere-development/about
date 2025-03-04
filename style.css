@@ -132,7 +132,6 @@ h2 {
 }
 
 tr, td {
-    border-width: 3px;
-    border-style: solid;
-    border-color: #EDF1D6;
+    color: EDF1D6;
+    border: 3px solid;
 }
