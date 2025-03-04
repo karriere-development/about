@@ -81,8 +81,7 @@ h2 {
     font-size: clamp(2rem, 10vw, 3rem);
 }
 
-.font-jura, h3, h4,
-.documentation-table {
+.font-jura, h3, h4 {
     font-family: "Jura", serif;
     font-size: clamp(1rem, 3vw, 1.3rem);
     font-weight: 100;
