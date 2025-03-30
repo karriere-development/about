@@ -234,15 +234,15 @@ h2 {
 }
 
 .resume-button:hover, .network-project-button:hover,
-.source-code-button:hover, .dice-game-button:hover,
-.snake-source-code-button:hover {
+.source-code-button:hover, .dice-game-button:hover {
     color: black;
     background-color: #EDF1D6;
     transition: background-color 0.3s, color 0.3s;
     box-shadow: 0 4px 6px rgba(0,0,0,0.2);
 }
 
-.contact-button:hover, #playButton:hover {
+.contact-button:hover, #playButton:hover,
+.snake-source-code-button:hover {
     color: #EDF1D6;
     background-color: #9DC08B;
     transition: background-color 0.3s, color 0.3s;
