@@ -226,7 +226,7 @@ h2 {
 }
 
 .contact-button, #playButton,
-.snake-source-code-button:hover {
+.snake-source-code-button {
     width: 100%;
     max-width: 12rem;
     color: black;
